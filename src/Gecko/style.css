@@ -1,0 +1,214 @@
+:root {
+    --background-light: #ffffff;
+    --background-dark: #232323;
+    --accent: #7835FF;
+    --accent-hover: #5F00FF;
+    --elements-light: #999999;
+    --elements-dark: #555555;
+    --elements-disabled: #e1e1e1;
+    --warning-light: #ff3b30;
+    --warning-dark: #ff453a;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --elements-disabled: #464646;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    scrollbar-width: none;
+    background-color: var(--background-light);
+}
+
+.button {
+    background-color: var(--accent);
+    border: none;
+    border-radius: 8px;
+    color: var(--background-light);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: var(--accent-hover);
+    transition: .4s;
+}
+
+.smallbutton {
+    background-color: var(--background-light);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    color: var(--accent);
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.smallbutton:hover {
+    color: var(--accent-hover);
+    border: 1px solid var(--accent-hover);
+    transition: .4s;
+}
+
+#status {
+    color: var(--warning-light);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: black;
+    margin-bottom: 10px;
+}
+
+select:disabled {
+    background-color: #e1e1e1;
+    color: var(--elements-dark);
+}
+
+.url {
+    color: var(--accent);
+}
+
+.url:hover {
+    color: var(--accent-hover);
+}
+
+/* The switches - begin */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--elements-light);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 17px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--background-light);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input[type=checkbox]:checked + .slider {
+    background-color: var(--accent);
+}
+
+input[type=checkbox]:focus + .slider {
+    box-shadow: 0 0 1px var(--accent);
+}
+
+input[type=checkbox]:hover:checked + .slider {
+    background-color: var(--accent-hover);
+}
+
+input[type=checkbox]:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+input[type=checkbox]:disabled + .slider {
+    background-color: var(--elements-disabled);
+    cursor: not-allowed;
+}
+
+input[type=checkbox]:disabled + .slider:before {
+    background-color: var(--elements-dark);
+}
+
+input[type=checkbox]:disabled:checked + .slider:before {
+    background-color: var(--elements-disabled);
+}
+
+input[type=checkbox]:disabled:hover + .slider {
+    background-color: var(--elements-disabled);
+}
+
+/* The switches - end */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-dark);
+    }
+    
+
+    .smallbutton {
+        background-color: var(--background-dark);
+        color: #9661ff;
+        border: 1px solid #9661ff;
+    }
+
+    #status {
+        color: var(--warning-dark);
+    }
+
+    select {
+        background-color: #232323;
+        color: #ffffff;
+        border: 1px solid #555555;
+    }
+
+    select:disabled {
+        background-color: #555555;
+        color: #ffffff;
+    }
+
+    /* The switches - begin */
+    .slider {
+        background-color: var(--elements-dark);
+    }
+
+    input[type=checkbox]:checked + .slider {
+        background-color: var(--accent);
+    }
+
+    input[type=checkbox]:hover:checked + .slider {
+        background-color: var(--accent-hover);
+    }
+    /* The switches - end */
+}

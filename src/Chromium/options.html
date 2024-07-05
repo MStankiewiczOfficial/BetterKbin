@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Better /kbin Options</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                width: math(100% - 20px);
+                height: 100%;
+            }
+            body::-webkit-scrollbar{
+                display: none;
+            }
+            #instance {
+                border: 0px;
+                color: black;
+                padding: 6px;
+                margin: 0px;
+                padding: 0px;
+                width: math(100% - 20px - 12px);
+            }
+            #instance:focus {
+                outline: none;
+            }
+            #textbox {
+                background-color: #ffffff00;
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                padding: 6px;
+                width: math(100% - 20px);
+            }
+            #textbox a {
+                color: #999999;
+                font-size: 12px;
+                margin-right: 1px;
+                cursor: default;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #232323;
+                    color: #ffffff;
+                }
+                #textbox {
+                    background-color: #232323;
+                    border: 1px solid #555555;
+                }
+                #instance {
+                    background-color: #232323;
+                    color: #ffffff;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <span id="textTypeDomain" class="text">Type your /kbin instance domain here:</span>
+        <br>
+        <div id="textbox">
+            <a>https://</a><input type="text" id="instance" placeholder="e.g. kbin.social" value="kbin.social"/>
+        </div>
+        <span id="textSecurity" class="text">For security reasons, you can only use /kbin instances that has a valid SSL certificate (address starts with "https://").</span>
+        <br>
+        <br>
+        <span class="text" id="textLang" class="text">Select language:</span>
+        <select id="language">
+            <option value="1">English</option>
+            <option value="2">Polski</option>
+        </select>
+        <br>
+        <br>
+        <div>
+            <label for="theme" class="switch">
+                <input type="checkbox" id="theme" checked>
+                <span class="slider"></span>
+            </label>
+            <span id="textAutoThemeSwitch" class="text">Enable automatic theme switching</span>
+        </div>
+        <br>
+        <br>
+        <span class="text" id="textThemeLight" class="text">Select light theme style:</span>
+        <select id="themeLight">
+            <option value="1" id="textThemeLightOption1">Light</option>
+            <option value="2" id="textThemeLightOption2">Solarized Light</option>
+        </select>
+        <br>
+        <br>
+        <span class="text" id="textThemeDark" class="text">Select dark theme style:</span>
+        <select id="themeDark">
+            <option value="1" id="textThemeDarkOption1">kbin</option>
+            <option value="2" id="textThemeDarkOption2">Dark</option>
+            <option value="3" id="textThemeDarkOption3">Solarized Dark</option>
+            <option value="4" id="textThemeDarkOption4">Tokyo Night</option>
+            <option value="5" id="textThemeDarkOption5">HackerBin (by arsg0etia) [BETA]</option>
+            <option value="6" id="textThemeDarkOption6">Dark Dark Theme (by solomrdolo) [BETA]</option>
+        </select>
+        <br>
+        <br>
+        <div>
+            <label for="useBetterPageNavigation" class="switch">
+                <input type="checkbox" id="useBetterPageNavigation" checked>
+                <span class="slider"></span>
+            </label>
+            <span id="textUseBetterPageNavigation" class="text">Use Better Page Navigation (by minnieo)</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label for="openInNewTab" class="switch">
+                <input type="checkbox" id="openInNewTab" checked>
+                <span class="slider"></span>
+            </label>
+            <span id="textOpenNewTab" class="text">Open /kbin links in new tab</span>
+        </div>
+        <br>
+        <div id="status"></div>
+        <br>
+        <button id="save" class="button">Save</button>
+        <br>
+        <br>
+        <span id="textFooter" class="text"><a id="textCopyrightURL" class="url" href="/copyright.html" target="_blank">Copyright</a></span>
+        <script src="options.js"></script>
+        <script src="lang_options.js"></script>
+    </body>
+</html>

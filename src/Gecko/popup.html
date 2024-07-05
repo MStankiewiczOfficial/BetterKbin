@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Better /kbin Options</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                width: 300px;
+                height: 100%;
+            }
+            #textarea {
+                border: 0px;
+                color: black;
+                padding: 6px;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+            }
+            #textarea:focus {
+                outline: none;
+            }
+            #textbox {
+                background-color: #ffffff;
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                padding: 6px;
+                width: math(100% - 20px);
+            }
+            #textbox a {
+                color: #999999;
+                font-size: 12px;
+                margin-right: 1px;
+                cursor: default;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            footer {
+                bottom: 5px;
+                width: 100%;
+                text-align: center;
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #232323;
+                    color: #ffffff;
+                }
+                #textbox {
+                    background-color: #232323;
+                    border: 1px solid #555555;
+                }
+                #textarea {
+                    background-color: #232323;
+                    color: #ffffff;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="icon32.png" alt="Better /kbin logo">
+            <h1 id="textShareWithKbin">Share with /kbin</h1>
+        </div>
+        <div id="textbox">
+            <input type="text" id="textarea" placeholder="https://www.example.com"/>
+        </div>
+        <div id="status"></div>
+        <br>
+        <button id="share" class="button">Share</button>
+        <br>
+        <br>
+        <div>
+            <label for="theme" class="switch">
+                <input type="checkbox" id="theme" checked>
+                <span class="slider"></span>
+            </label>
+            <span id="textAutoThemeSwitch" class="text">Enable automatic theme switching</span>
+        </div>
+        <br>
+        <br>
+        <footer>
+            <button id="settings" class="smallbutton">Open options</button>
+        </footer>
+        <script src="popup.js"></script>
+        <script src="lang_popup.js"></script>
+    </body>
+</html>
