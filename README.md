@@ -2,6 +2,8 @@
 
 # Now /kbin is better!
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccfde50c33354282872f6c03336ff65e)](https://app.codacy.com/gh/MStankiewiczOfficial/BetterKbin?utm_source=github.com&utm_medium=referral&utm_content=MStankiewiczOfficial/BetterKbin&utm_campaign=Badge_Grade)
+
 You can easly share your links to any /kbin instance pressing right click! Just right-click your URL and choose "Share this page with /kbin" - now you can add a description and share post.
 
 Extension adds a special script, that adds variables to /kbin's URLs, so you can type in browser e.g. https://kbin.social/new?url=https://example.com&title=My+URL and it'll automaticly open /kbin's publication page with filled texts for title and URL that you want share.
