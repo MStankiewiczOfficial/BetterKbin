@@ -1,0 +1,40 @@
+{
+    "name": "Better /kbin",
+    "description": "__MSG_appDesc__",
+    "default_locale": "en",
+    "author": "Michał Stankiewicz",
+    "version": "2.2.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png",
+        "512": "icon512.png"
+    },
+    "background": {
+        "page": "background-page.html"
+    },
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "tabs"
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>",
+        "*://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660DD5D92C3ABB31007000C8 /* activate-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 660DD5D82C3ABB31007000C8 /* activate-ios.png */; };
+		669401CF2C3A980A00EE0AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401CE2C3A980A00EE0AFD /* AppDelegate.swift */; };
+		669401D12C3A980A00EE0AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401D02C3A980A00EE0AFD /* SceneDelegate.swift */; };
+		669401D42C3A980A00EE0AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 669401D32C3A980A00EE0AFD /* Base */; };
+		669401D72C3A980A00EE0AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 669401D62C3A980A00EE0AFD /* Base */; };
+		669401E02C3A980A00EE0AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401DF2C3A980A00EE0AFD /* AppDelegate.swift */; };
+		669401E32C3A980A00EE0AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 669401E22C3A980A00EE0AFD /* Base */; };
+		669401EB2C3A980A00EE0AFD /* Better kbin Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 669401EA2C3A980A00EE0AFD /* Better kbin Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		669401F52C3A980A00EE0AFD /* Better kbin Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 669401F42C3A980A00EE0AFD /* Better kbin Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		669401FB2C3A980A00EE0AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 669401BF2C3A980900EE0AFD /* Base */; };
+		669401FC2C3A980A00EE0AFD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 669401BF2C3A980900EE0AFD /* Base */; };
+		669401FD2C3A980A00EE0AFD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 669401C02C3A980900EE0AFD /* Icon.png */; };
+		669401FE2C3A980A00EE0AFD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 669401C02C3A980900EE0AFD /* Icon.png */; };
+		669401FF2C3A980A00EE0AFD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 669401C12C3A980900EE0AFD /* Style.css */; };
+		669402002C3A980A00EE0AFD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 669401C12C3A980900EE0AFD /* Style.css */; };
+		669402012C3A980A00EE0AFD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 669401C22C3A980900EE0AFD /* Script.js */; };
+		669402022C3A980A00EE0AFD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 669401C22C3A980900EE0AFD /* Script.js */; };
+		669402032C3A980A00EE0AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401C32C3A980900EE0AFD /* ViewController.swift */; };
+		669402042C3A980A00EE0AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401C32C3A980900EE0AFD /* ViewController.swift */; };
+		669402052C3A980A00EE0AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669401C42C3A980A00EE0AFD /* Assets.xcassets */; };
+		669402062C3A980A00EE0AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669401C42C3A980A00EE0AFD /* Assets.xcassets */; };
+		669402072C3A980A00EE0AFD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401C62C3A980A00EE0AFD /* SafariWebExtensionHandler.swift */; };
+		669402082C3A980A00EE0AFD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669401C62C3A980A00EE0AFD /* SafariWebExtensionHandler.swift */; };
+		6694022D2C3A980A00EE0AFD /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 6694021A2C3A980A00EE0AFD /* icon16.png */; };
+		6694022E2C3A980A00EE0AFD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021B2C3A980A00EE0AFD /* popup.js */; };
+		6694022F2C3A980A00EE0AFD /* copyright.html in Resources */ = {isa = PBXBuildFile; fileRef = 6694021C2C3A980A00EE0AFD /* copyright.html */; };
+		669402302C3A980A00EE0AFD /* lang_options.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021D2C3A980A00EE0AFD /* lang_options.js */; };
+		669402312C3A980A00EE0AFD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021E2C3A980A00EE0AFD /* background.js */; };
+		669402322C3A980A00EE0AFD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6694021F2C3A980A00EE0AFD /* popup.html */; };
+		669402332C3A980A00EE0AFD /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402202C3A980A00EE0AFD /* icon48.png */; };
+		669402342C3A980A00EE0AFD /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402212C3A980A00EE0AFD /* options.js */; };
+		669402352C3A980A00EE0AFD /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402222C3A980A00EE0AFD /* icon512.png */; };
+		669402362C3A980A00EE0AFD /* lang_popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402232C3A980A00EE0AFD /* lang_popup.js */; };
+		669402372C3A980A00EE0AFD /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402242C3A980A00EE0AFD /* icon128.png */; };
+		669402382C3A980A00EE0AFD /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 669402252C3A980A00EE0AFD /* style.css */; };
+		669402392C3A980A00EE0AFD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 669402262C3A980A00EE0AFD /* manifest.json */; };
+		6694023A2C3A980A00EE0AFD /* lang_copyright.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402272C3A980A00EE0AFD /* lang_copyright.js */; };
+		6694023B2C3A980A00EE0AFD /* background-page.html in Resources */ = {isa = PBXBuildFile; fileRef = 669402282C3A980A00EE0AFD /* background-page.html */; };
+		6694023C2C3A980A00EE0AFD /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 669402292C3A980A00EE0AFD /* options.html */; };
+		6694023D2C3A980A00EE0AFD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6694022A2C3A980A00EE0AFD /* _locales */; };
+		6694023E2C3A980A00EE0AFD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694022B2C3A980A00EE0AFD /* content.js */; };
+		6694023F2C3A980A00EE0AFD /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 6694022C2C3A980A00EE0AFD /* icon32.png */; };
+		669402402C3A980A00EE0AFD /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 6694021A2C3A980A00EE0AFD /* icon16.png */; };
+		669402412C3A980A00EE0AFD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021B2C3A980A00EE0AFD /* popup.js */; };
+		669402422C3A980A00EE0AFD /* copyright.html in Resources */ = {isa = PBXBuildFile; fileRef = 6694021C2C3A980A00EE0AFD /* copyright.html */; };
+		669402432C3A980A00EE0AFD /* lang_options.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021D2C3A980A00EE0AFD /* lang_options.js */; };
+		669402442C3A980A00EE0AFD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694021E2C3A980A00EE0AFD /* background.js */; };
+		669402452C3A980A00EE0AFD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6694021F2C3A980A00EE0AFD /* popup.html */; };
+		669402462C3A980A00EE0AFD /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402202C3A980A00EE0AFD /* icon48.png */; };
+		669402472C3A980A00EE0AFD /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402212C3A980A00EE0AFD /* options.js */; };
+		669402482C3A980A00EE0AFD /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402222C3A980A00EE0AFD /* icon512.png */; };
+		669402492C3A980A00EE0AFD /* lang_popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402232C3A980A00EE0AFD /* lang_popup.js */; };
+		6694024A2C3A980A00EE0AFD /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 669402242C3A980A00EE0AFD /* icon128.png */; };
+		6694024B2C3A980A00EE0AFD /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 669402252C3A980A00EE0AFD /* style.css */; };
+		6694024C2C3A980A00EE0AFD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 669402262C3A980A00EE0AFD /* manifest.json */; };
+		6694024D2C3A980A00EE0AFD /* lang_copyright.js in Resources */ = {isa = PBXBuildFile; fileRef = 669402272C3A980A00EE0AFD /* lang_copyright.js */; };
+		6694024E2C3A980A00EE0AFD /* background-page.html in Resources */ = {isa = PBXBuildFile; fileRef = 669402282C3A980A00EE0AFD /* background-page.html */; };
+		6694024F2C3A980A00EE0AFD /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 669402292C3A980A00EE0AFD /* options.html */; };
+		669402502C3A980A00EE0AFD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6694022A2C3A980A00EE0AFD /* _locales */; };
+		669402512C3A980A00EE0AFD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6694022B2C3A980A00EE0AFD /* content.js */; };
+		669402522C3A980A00EE0AFD /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 6694022C2C3A980A00EE0AFD /* icon32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		669401EC2C3A980A00EE0AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669401B82C3A980900EE0AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669401E92C3A980A00EE0AFD;
+			remoteInfo = "Better kbin Extension (iOS)";
+		};
+		669401F62C3A980A00EE0AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669401B82C3A980900EE0AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669401F32C3A980A00EE0AFD;
+			remoteInfo = "Better kbin Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6694020E2C3A980A00EE0AFD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				669401EB2C3A980A00EE0AFD /* Better kbin Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669402152C3A980A00EE0AFD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				669401F52C3A980A00EE0AFD /* Better kbin Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		660DD5D82C3ABB31007000C8 /* activate-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activate-ios.png"; sourceTree = "<group>"; };
+		660DD5DA2C3AE59D007000C8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		660DD5DB2C3AE59D007000C8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		660DD5DC2C3AE59D007000C8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		660DD5DD2C3AE59D007000C8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = pl; path = ../pl.lproj/Main.html; sourceTree = "<group>"; };
+		669401BF2C3A980900EE0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		669401C02C3A980900EE0AFD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		669401C12C3A980900EE0AFD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		669401C22C3A980900EE0AFD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		669401C32C3A980900EE0AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		669401C42C3A980A00EE0AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669401C62C3A980A00EE0AFD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		669401CB2C3A980A00EE0AFD /* Better kbin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better kbin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669401CE2C3A980A00EE0AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		669401D02C3A980A00EE0AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		669401D32C3A980A00EE0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		669401D62C3A980A00EE0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669401D82C3A980A00EE0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669401DD2C3A980A00EE0AFD /* Better kbin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better kbin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669401DF2C3A980A00EE0AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		669401E22C3A980A00EE0AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669401E42C3A980A00EE0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669401E52C3A980A00EE0AFD /* Better kbin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better kbin.entitlements"; sourceTree = "<group>"; };
+		669401EA2C3A980A00EE0AFD /* Better kbin Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better kbin Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669401EF2C3A980A00EE0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669401F42C3A980A00EE0AFD /* Better kbin Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better kbin Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669401F92C3A980A00EE0AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669401FA2C3A980A00EE0AFD /* Better kbin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better kbin.entitlements"; sourceTree = "<group>"; };
+		6694021A2C3A980A00EE0AFD /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = Resources/icon16.png; sourceTree = "<group>"; };
+		6694021B2C3A980A00EE0AFD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		6694021C2C3A980A00EE0AFD /* copyright.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = copyright.html; path = Resources/copyright.html; sourceTree = "<group>"; };
+		6694021D2C3A980A00EE0AFD /* lang_options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = lang_options.js; path = Resources/lang_options.js; sourceTree = "<group>"; };
+		6694021E2C3A980A00EE0AFD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		6694021F2C3A980A00EE0AFD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		669402202C3A980A00EE0AFD /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = Resources/icon48.png; sourceTree = "<group>"; };
+		669402212C3A980A00EE0AFD /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
+		669402222C3A980A00EE0AFD /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon512.png; path = Resources/icon512.png; sourceTree = "<group>"; };
+		669402232C3A980A00EE0AFD /* lang_popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = lang_popup.js; path = Resources/lang_popup.js; sourceTree = "<group>"; };
+		669402242C3A980A00EE0AFD /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = Resources/icon128.png; sourceTree = "<group>"; };
+		669402252C3A980A00EE0AFD /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = Resources/style.css; sourceTree = "<group>"; };
+		669402262C3A980A00EE0AFD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		669402272C3A980A00EE0AFD /* lang_copyright.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = lang_copyright.js; path = Resources/lang_copyright.js; sourceTree = "<group>"; };
+		669402282C3A980A00EE0AFD /* background-page.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "background-page.html"; path = "Resources/background-page.html"; sourceTree = "<group>"; };
+		669402292C3A980A00EE0AFD /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		6694022A2C3A980A00EE0AFD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		6694022B2C3A980A00EE0AFD /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		6694022C2C3A980A00EE0AFD /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = Resources/icon32.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669401C82C3A980A00EE0AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401DA2C3A980A00EE0AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401E72C3A980A00EE0AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401F12C3A980A00EE0AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669401B72C3A980900EE0AFD = {
+			isa = PBXGroup;
+			children = (
+				669401BC2C3A980900EE0AFD /* Shared (App) */,
+				669401C52C3A980A00EE0AFD /* Shared (Extension) */,
+				669401CD2C3A980A00EE0AFD /* iOS (App) */,
+				669401DE2C3A980A00EE0AFD /* macOS (App) */,
+				669401EE2C3A980A00EE0AFD /* iOS (Extension) */,
+				669401F82C3A980A00EE0AFD /* macOS (Extension) */,
+				669401CC2C3A980A00EE0AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669401BC2C3A980900EE0AFD /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				669401C32C3A980900EE0AFD /* ViewController.swift */,
+				669401C42C3A980A00EE0AFD /* Assets.xcassets */,
+				669401BD2C3A980900EE0AFD /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		669401BD2C3A980900EE0AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				669401BE2C3A980900EE0AFD /* Main.html */,
+				669401C02C3A980900EE0AFD /* Icon.png */,
+				669401C12C3A980900EE0AFD /* Style.css */,
+				660DD5D82C3ABB31007000C8 /* activate-ios.png */,
+				669401C22C3A980900EE0AFD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		669401C52C3A980A00EE0AFD /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				669402192C3A980A00EE0AFD /* Resources */,
+				669401C62C3A980A00EE0AFD /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		669401CC2C3A980A00EE0AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669401CB2C3A980A00EE0AFD /* Better kbin.app */,
+				669401DD2C3A980A00EE0AFD /* Better kbin.app */,
+				669401EA2C3A980A00EE0AFD /* Better kbin Extension.appex */,
+				669401F42C3A980A00EE0AFD /* Better kbin Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669401CD2C3A980A00EE0AFD /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				669401CE2C3A980A00EE0AFD /* AppDelegate.swift */,
+				669401D02C3A980A00EE0AFD /* SceneDelegate.swift */,
+				669401D22C3A980A00EE0AFD /* LaunchScreen.storyboard */,
+				669401D52C3A980A00EE0AFD /* Main.storyboard */,
+				669401D82C3A980A00EE0AFD /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		669401DE2C3A980A00EE0AFD /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				669401DF2C3A980A00EE0AFD /* AppDelegate.swift */,
+				669401E12C3A980A00EE0AFD /* Main.storyboard */,
+				669401E42C3A980A00EE0AFD /* Info.plist */,
+				669401E52C3A980A00EE0AFD /* Better kbin.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		669401EE2C3A980A00EE0AFD /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				669401EF2C3A980A00EE0AFD /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		669401F82C3A980A00EE0AFD /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				669401F92C3A980A00EE0AFD /* Info.plist */,
+				669401FA2C3A980A00EE0AFD /* Better kbin.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		669402192C3A980A00EE0AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6694021A2C3A980A00EE0AFD /* icon16.png */,
+				6694021B2C3A980A00EE0AFD /* popup.js */,
+				6694021C2C3A980A00EE0AFD /* copyright.html */,
+				6694021D2C3A980A00EE0AFD /* lang_options.js */,
+				6694021E2C3A980A00EE0AFD /* background.js */,
+				6694021F2C3A980A00EE0AFD /* popup.html */,
+				669402202C3A980A00EE0AFD /* icon48.png */,
+				669402212C3A980A00EE0AFD /* options.js */,
+				669402222C3A980A00EE0AFD /* icon512.png */,
+				669402232C3A980A00EE0AFD /* lang_popup.js */,
+				669402242C3A980A00EE0AFD /* icon128.png */,
+				669402252C3A980A00EE0AFD /* style.css */,
+				669402262C3A980A00EE0AFD /* manifest.json */,
+				669402272C3A980A00EE0AFD /* lang_copyright.js */,
+				669402282C3A980A00EE0AFD /* background-page.html */,
+				669402292C3A980A00EE0AFD /* options.html */,
+				6694022A2C3A980A00EE0AFD /* _locales */,
+				6694022B2C3A980A00EE0AFD /* content.js */,
+				6694022C2C3A980A00EE0AFD /* icon32.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669401CA2C3A980A00EE0AFD /* Better kbin (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6694020F2C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin (iOS)" */;
+			buildPhases = (
+				669401C72C3A980A00EE0AFD /* Sources */,
+				669401C82C3A980A00EE0AFD /* Frameworks */,
+				669401C92C3A980A00EE0AFD /* Resources */,
+				6694020E2C3A980A00EE0AFD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669401ED2C3A980A00EE0AFD /* PBXTargetDependency */,
+			);
+			name = "Better kbin (iOS)";
+			productName = "Better kbin (iOS)";
+			productReference = 669401CB2C3A980A00EE0AFD /* Better kbin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		669401DC2C3A980A00EE0AFD /* Better kbin (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669402162C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin (macOS)" */;
+			buildPhases = (
+				669401D92C3A980A00EE0AFD /* Sources */,
+				669401DA2C3A980A00EE0AFD /* Frameworks */,
+				669401DB2C3A980A00EE0AFD /* Resources */,
+				669402152C3A980A00EE0AFD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669401F72C3A980A00EE0AFD /* PBXTargetDependency */,
+			);
+			name = "Better kbin (macOS)";
+			productName = "Better kbin (macOS)";
+			productReference = 669401DD2C3A980A00EE0AFD /* Better kbin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		669401E92C3A980A00EE0AFD /* Better kbin Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6694020B2C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin Extension (iOS)" */;
+			buildPhases = (
+				669401E62C3A980A00EE0AFD /* Sources */,
+				669401E72C3A980A00EE0AFD /* Frameworks */,
+				669401E82C3A980A00EE0AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better kbin Extension (iOS)";
+			productName = "Better kbin Extension (iOS)";
+			productReference = 669401EA2C3A980A00EE0AFD /* Better kbin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		669401F32C3A980A00EE0AFD /* Better kbin Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669402122C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin Extension (macOS)" */;
+			buildPhases = (
+				669401F02C3A980A00EE0AFD /* Sources */,
+				669401F12C3A980A00EE0AFD /* Frameworks */,
+				669401F22C3A980A00EE0AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better kbin Extension (macOS)";
+			productName = "Better kbin Extension (macOS)";
+			productReference = 669401F42C3A980A00EE0AFD /* Better kbin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669401B82C3A980900EE0AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					669401CA2C3A980A00EE0AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					669401DC2C3A980A00EE0AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					669401E92C3A980A00EE0AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					669401F32C3A980A00EE0AFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 669401BB2C3A980900EE0AFD /* Build configuration list for PBXProject "Better kbin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pl,
+			);
+			mainGroup = 669401B72C3A980900EE0AFD;
+			productRefGroup = 669401CC2C3A980A00EE0AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669401CA2C3A980A00EE0AFD /* Better kbin (iOS) */,
+				669401DC2C3A980A00EE0AFD /* Better kbin (macOS) */,
+				669401E92C3A980A00EE0AFD /* Better kbin Extension (iOS) */,
+				669401F32C3A980A00EE0AFD /* Better kbin Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669401C92C3A980A00EE0AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669401FD2C3A980A00EE0AFD /* Icon.png in Resources */,
+				669401D42C3A980A00EE0AFD /* Base in Resources */,
+				669401FB2C3A980A00EE0AFD /* Base in Resources */,
+				669402012C3A980A00EE0AFD /* Script.js in Resources */,
+				660DD5D92C3ABB31007000C8 /* activate-ios.png in Resources */,
+				669402052C3A980A00EE0AFD /* Assets.xcassets in Resources */,
+				669401D72C3A980A00EE0AFD /* Base in Resources */,
+				669401FF2C3A980A00EE0AFD /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401DB2C3A980A00EE0AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669401FE2C3A980A00EE0AFD /* Icon.png in Resources */,
+				669402002C3A980A00EE0AFD /* Style.css in Resources */,
+				669401E32C3A980A00EE0AFD /* Base in Resources */,
+				669402022C3A980A00EE0AFD /* Script.js in Resources */,
+				669402062C3A980A00EE0AFD /* Assets.xcassets in Resources */,
+				669401FC2C3A980A00EE0AFD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401E82C3A980A00EE0AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669402402C3A980A00EE0AFD /* icon16.png in Resources */,
+				669402502C3A980A00EE0AFD /* _locales in Resources */,
+				669402522C3A980A00EE0AFD /* icon32.png in Resources */,
+				6694024B2C3A980A00EE0AFD /* style.css in Resources */,
+				6694024E2C3A980A00EE0AFD /* background-page.html in Resources */,
+				669402472C3A980A00EE0AFD /* options.js in Resources */,
+				6694024C2C3A980A00EE0AFD /* manifest.json in Resources */,
+				669402512C3A980A00EE0AFD /* content.js in Resources */,
+				6694024A2C3A980A00EE0AFD /* icon128.png in Resources */,
+				669402452C3A980A00EE0AFD /* popup.html in Resources */,
+				669402422C3A980A00EE0AFD /* copyright.html in Resources */,
+				669402412C3A980A00EE0AFD /* popup.js in Resources */,
+				6694024D2C3A980A00EE0AFD /* lang_copyright.js in Resources */,
+				669402492C3A980A00EE0AFD /* lang_popup.js in Resources */,
+				6694024F2C3A980A00EE0AFD /* options.html in Resources */,
+				669402482C3A980A00EE0AFD /* icon512.png in Resources */,
+				669402432C3A980A00EE0AFD /* lang_options.js in Resources */,
+				669402462C3A980A00EE0AFD /* icon48.png in Resources */,
+				669402442C3A980A00EE0AFD /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401F22C3A980A00EE0AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6694022D2C3A980A00EE0AFD /* icon16.png in Resources */,
+				6694023D2C3A980A00EE0AFD /* _locales in Resources */,
+				6694023F2C3A980A00EE0AFD /* icon32.png in Resources */,
+				669402382C3A980A00EE0AFD /* style.css in Resources */,
+				6694023B2C3A980A00EE0AFD /* background-page.html in Resources */,
+				669402342C3A980A00EE0AFD /* options.js in Resources */,
+				669402392C3A980A00EE0AFD /* manifest.json in Resources */,
+				6694023E2C3A980A00EE0AFD /* content.js in Resources */,
+				669402372C3A980A00EE0AFD /* icon128.png in Resources */,
+				669402322C3A980A00EE0AFD /* popup.html in Resources */,
+				6694022F2C3A980A00EE0AFD /* copyright.html in Resources */,
+				6694022E2C3A980A00EE0AFD /* popup.js in Resources */,
+				6694023A2C3A980A00EE0AFD /* lang_copyright.js in Resources */,
+				669402362C3A980A00EE0AFD /* lang_popup.js in Resources */,
+				6694023C2C3A980A00EE0AFD /* options.html in Resources */,
+				669402352C3A980A00EE0AFD /* icon512.png in Resources */,
+				669402302C3A980A00EE0AFD /* lang_options.js in Resources */,
+				669402332C3A980A00EE0AFD /* icon48.png in Resources */,
+				669402312C3A980A00EE0AFD /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669401C72C3A980A00EE0AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669402032C3A980A00EE0AFD /* ViewController.swift in Sources */,
+				669401CF2C3A980A00EE0AFD /* AppDelegate.swift in Sources */,
+				669401D12C3A980A00EE0AFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401D92C3A980A00EE0AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669402042C3A980A00EE0AFD /* ViewController.swift in Sources */,
+				669401E02C3A980A00EE0AFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401E62C3A980A00EE0AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669402072C3A980A00EE0AFD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669401F02C3A980A00EE0AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669402082C3A980A00EE0AFD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		669401ED2C3A980A00EE0AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669401E92C3A980A00EE0AFD /* Better kbin Extension (iOS) */;
+			targetProxy = 669401EC2C3A980A00EE0AFD /* PBXContainerItemProxy */;
+		};
+		669401F72C3A980A00EE0AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669401F32C3A980A00EE0AFD /* Better kbin Extension (macOS) */;
+			targetProxy = 669401F62C3A980A00EE0AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		669401BE2C3A980900EE0AFD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669401BF2C3A980900EE0AFD /* Base */,
+				660DD5DD2C3AE59D007000C8 /* pl */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		669401D22C3A980A00EE0AFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669401D32C3A980A00EE0AFD /* Base */,
+				660DD5DA2C3AE59D007000C8 /* pl */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		669401D52C3A980A00EE0AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669401D62C3A980A00EE0AFD /* Base */,
+				660DD5DB2C3AE59D007000C8 /* pl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		669401E12C3A980A00EE0AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669401E22C3A980A00EE0AFD /* Base */,
+				660DD5DC2C3AE59D007000C8 /* pl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669402092C3A980A00EE0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6694020A2C3A980A00EE0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6694020C2C3A980A00EE0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin.Extension";
+				PRODUCT_NAME = "Better kbin Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6694020D2C3A980A00EE0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin.Extension";
+				PRODUCT_NAME = "Better kbin Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669402102C3A980A00EE0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1 Beta";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin";
+				PRODUCT_NAME = "Better kbin";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669402112C3A980A00EE0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1 Beta";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin";
+				PRODUCT_NAME = "Better kbin";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669402132C3A980A00EE0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better kbin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin.Extension";
+				PRODUCT_NAME = "Better kbin Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		669402142C3A980A00EE0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better kbin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin.Extension";
+				PRODUCT_NAME = "Better kbin Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		669402172C3A980A00EE0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better kbin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1 Beta";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.2.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin";
+				PRODUCT_NAME = "Better kbin";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		669402182C3A980A00EE0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better kbin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1 Beta";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better /kbin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.2.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.mstankiewicz.Better-kbin";
+				PRODUCT_NAME = "Better kbin";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669401BB2C3A980900EE0AFD /* Build configuration list for PBXProject "Better kbin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669402092C3A980A00EE0AFD /* Debug */,
+				6694020A2C3A980A00EE0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6694020B2C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6694020C2C3A980A00EE0AFD /* Debug */,
+				6694020D2C3A980A00EE0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6694020F2C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669402102C3A980A00EE0AFD /* Debug */,
+				669402112C3A980A00EE0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669402122C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669402132C3A980A00EE0AFD /* Debug */,
+				669402142C3A980A00EE0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669402162C3A980A00EE0AFD /* Build configuration list for PBXNativeTarget "Better kbin (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669402172C3A980A00EE0AFD /* Debug */,
+				669402182C3A980A00EE0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669401B82C3A980900EE0AFD /* Project object */;
+}
