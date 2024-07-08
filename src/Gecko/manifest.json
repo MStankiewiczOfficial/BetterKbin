@@ -3,7 +3,7 @@
     "description": "__MSG_appDesc__",
     "default_locale": "en",
     "author": "Michał Stankiewicz",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "manifest_version": 3,
     "browser_specific_settings": {
         "gecko": {
