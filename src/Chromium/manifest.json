@@ -3,7 +3,7 @@
     "description": "__MSG_appDesc__",
     "default_locale": "en",
     "author": "Michał Stankiewicz",
-    "version": "2.2",
+    "version": "2.2.1",
     "manifest_version": 3,
     "icons": {
         "16": "icon16.png",

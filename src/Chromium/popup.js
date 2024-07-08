@@ -53,5 +53,16 @@ const restoreOptions = () => {
     );
 }
 
+function currentURL() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+        if (tabs[0].url.startsWith("chrome://" || "about:" || "undefined" || "safari-web-extension://")) {
+            URLtoShare.value = "";
+        } else {
+            URLtoShare.value = tabs[0].url;
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', restoreOptions);
+document.addEventListener('DOMContentLoaded', currentURL);
 document.getElementById('theme').addEventListener('click', saveOptions);
